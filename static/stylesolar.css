@@ -1,0 +1,428 @@
+body{
+    /* background-color: lightcyan; */
+    background-image: url(./solar.jpg);
+    text-align: justify;
+    margin: 2%;
+    padding: 2%;
+    
+}
+h1{
+    color:white;
+    font-size: 500%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3{
+    color:white;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.introduction{
+    color: maroon;
+    background-color: lightgray;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 40px;
+    border: crimson;
+    border-radius: 30px;
+    border-style: double;
+    padding: 5%;
+}
+.evolution{
+    color: maroon;
+    background-color: lightsalmon;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 40px;
+    border-radius: 50px;
+    border-style: double;
+    padding: 5%;
+   
+}
+.discovery{
+color: maroon;
+background-color: lightyellow;
+font-size: xx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-style: double;
+border-radius: 50px;
+margin: 40px;
+padding: 5%;
+}
+.earthorbit{
+color: mediumblue;
+background-color: lightgoldenrodyellow;
+font-size: xx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 50px;
+border-style: double;
+margin: 40px;
+padding: 5%;
+}
+.structure{
+color: brown;
+background-color: lightyellow;
+font-size: xx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-radius: 50px;
+border-style: double;
+margin: 40px;
+padding: 5%;
+}
+.sun{
+color: maroon;
+background-color: lightpink;
+font-size: xx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border-style: double;
+border-radius: 50px;
+margin: 40px;
+padding: 5%;
+
+}
+.mercury{
+color: brown;
+background-color: lightgoldenrodyellow;
+font-size: xx-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 40px;
+border-radius: 40px;
+border-style: dotted;
+padding: 5%;
+}
+.earth{
+color: darkblue;
+background-color: lightgreen;
+font-size: xx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 40px;
+border-radius: 50px;
+border-style: groove;
+padding: 5%;
+
+}
+.saturn{
+color: darkorchid;
+background-color: lightskyblue;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: xx-large;
+margin: 40px;
+border-radius: 5px;
+border-style: hidden;
+padding: 5%;
+}
+.jupiter{
+color: magenta;
+background-color: linen;
+font-size: xx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 40px;
+border-radius: 50px;
+border-style: groove;
+padding: 5%;
+}
+.neptune{
+color: maroon;
+background-color: lightgoldenrodyellow;
+margin: 50px;
+border-style: double;
+border-radius: 50px;
+font-size: xx-large;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding: 5%;
+}
+#solarsystem{
+color:white;
+/* background-color:black; */
+/* border: black; */
+/* border-radius: 30px;
+border-style: dotted; */
+text-align: justify;
+font-size: x-large;
+font-family: 'Courier New', Courier, monospace; 
+/* padding: 5%; */
+}
+#venus{
+color: maroon;
+background-color: lightgrey;
+
+
+}
+.img1{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 50%;
+height: 70%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img2{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 35%;
+height: 28%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img3{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 25%;
+height: 34%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img4{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 28%;
+height: 27%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img5{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 23%;
+height: 35%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img6{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 25%;
+height: 35%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img7{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 30%;
+height: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img8{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 25%;
+height: 30%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img9{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 25%;
+height: 30%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img10{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 28%;
+height: 32%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img11{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 35%;
+height: 25%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img12{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 25%;
+height: 30%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img13{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 35%;
+height: 20%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img14{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 30%;
+height: 25%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img15{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 25%;
+height: 35%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img16{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 35%;
+height: 35%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.img17{
+border: darkgreen;
+border-radius: 70px;
+border-style: dashed;
+align-items: center;
+width: 28%;
+height: 34%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+nav{
+    background-color: mistyrose;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+    text-align: center;
+    height: 100px;
+    padding: auto;
+    margin: auto;
+
+}
+
+nav > ul{
+    color: black;
+    list-style-type: none;
+    border: peru 5px solid;
+    height: 90px;
+    padding: auto;
+    margin: auto;
+}
+
+nav > ul > li{
+    display: inline;
+    padding: 3%;
+    padding-left: 2%;
+    padding-right: 4%;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: darkred;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+
+.btn:hover{
+    color: burlywood;
+    background-color: cadetblue;
+    font-style: italic;
+    /* padding: 5px; */
+}
+
+.btn{
+    background-color: lightgoldenrodyellow;
+    /* color: black;
+    font-family: 'Times New Roman', Times,  serif; */
+    color: darkred;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    /* border: black;
+    border-style: solid;
+    border-width: 10%; */
+    border: none;
+}
+
+.dropdowncontent{
+        display: none;
+        position: absolute;
+        background-color: darkturquoise;
+        /* z-index: 1; */
+        min-width: 160px;
+}
+
+.dropdowncontent a:hover{
+    background-color: darkgray;
+}
+
+.dropdowncontent a{
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.dropdown:hover .dropdowncontent{ 
+display: block;
+    }
+.video{
+    text-align: center;
+}

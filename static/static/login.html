@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="./static/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <ul> 
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./solarsytsem.html">Solar System</a></li>
+            <div class="dropdown">
+                <button class="btn">Projects</button>
+                <div class="dropdowncontent">
+                <a href="./blog.html">Blog</a>
+                <a href="./english.html">Carpentry</a>
+                <a href="./poem.html">Ballad</a>
+                <a href="./matilda.html">Matilda</a>
+               
+                <a href="./recipe.html">Reciepe</a>
+                </div> 
+            </div>
+            <li><a href="./da vinci.html">Leonardo Da Vinci</a></li>
+            
+            </ul>
+        </nav>
+    </header>
+<!-- Create a div class -->
+    <div class="loginbox">
+    <h1>Member Login</h1>
+    <br>
+
+<form>
+<!-- Label for username -->
+       <label for="username">Username:
+        <input type="text" id="username" name="username" placeholder="username" required>
+    </label>
+    <br>
+<!-- Label for password -->
+<label for="password">Password:
+    <input type="password" id="password" name="password" placeholder="password" required>
+</label>
+<br>
+<!-- Create another div class within the main div container -->
+<div class="submit">
+<!-- Label for Login (use button) -->
+    <label for="submit">
+        <button type="submit">Login</button>
+    </label>
+<!-- Label for reset password (use button)  -->
+    <label for="reset">
+        <button type="reset">Reset Password</button>
+    </label>
+</div>
+
+</form>
+</div>
+</body>
+</html>

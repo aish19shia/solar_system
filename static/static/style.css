@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap' );
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@900&family=Orbitron&display=swap');
+
+body{
+    background-image: url(./53j19Z\ \(1\).jpg);
+    background-repeat: no-repeat;
+    margin: 25px;
+    padding: 20px;
+    background-size: cover;
+    text-align: center;
+}
+
+.loginbox{
+    width: 600px;
+    border: darkred;
+    border-style: groove;
+    border-radius: 30px;
+    border-width: 10px;
+    height:700px;
+    padding: auto;
+    margin: auto;
+    backface-visibility: visible;
+    background-color:lavenderblush;
+    box-sizing: border-box;
+    box-shadow: paleturquoise;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+    margin-bottom: 80%;
+    text-align: center
+    
+    
+}
+.loginbox input{
+width: 250px;
+height: 30px;
+margin: 20px;
+background-color: lemonchiffon;
+border-radius: 10px;
+border-style: groove;
+border-color: darkgreen;
+border-radius: 10px;
+}
+
+h1{
+    font-family:'Balsamiq Sans', cursive;
+    margin-top: 50px;
+}
+
+.loginbox label{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+
+}
+
+.loginbox button{
+    margin-top: 12px;
+    border-style: groove;
+    border-radius: 25px;
+    border-color: blue;
+    margin-right: 12px;
+}
+
+nav{
+    background-color: mistyrose;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+    text-align: center;
+    height: 100px;
+    padding: auto;
+    margin: auto;
+
+}
+
+nav > ul{
+    color: black;
+    list-style-type: none;
+    border: peru 5px solid;
+    height: 90px;
+    padding: auto;
+    margin: auto;
+}
+
+nav > ul > li{
+    display: inline;
+    padding: 3%;
+    padding-left: 2%;
+    padding-right: 4%;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: darkred;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+
+.btn:hover{
+    color: burlywood;
+    background-color: cadetblue;
+    font-style: italic;
+    /* padding: 5px; */
+}
+
+.btn{
+    background-color: lightgoldenrodyellow;
+    /* color: black;
+    font-family: 'Times New Roman', Times,  serif; */
+    color: darkred;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    /* border: black;
+    border-style: solid;
+    border-width: 10%; */
+    border: none;
+}
+
+.dropdowncontent{
+        display: none;
+        position: absolute;
+        background-color: darkturquoise;
+        /* z-index: 1; */
+        min-width: 160px;
+}
+
+.dropdowncontent a:hover{
+    background-color: darkgray;
+}
+
+.dropdowncontent a{
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.dropdown:hover .dropdowncontent{ 
+display: block;
+    }
+
+button{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: brown;
+    border-radius: 20px;
+    border-style: groove;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+a{
+    color: purple;
+    text-decoration: none;  
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: lightgrey;
+    padding: 20px 10px;
+    font-style: italic;
+}
+ .buttoncolor a:hover{
+     color: blueviolet; 
+     padding: 10px 20px 10px 20px ;
+     font-style: italic;
+ }
+
+select{
+    background-color: lightgrey;
+    font-size: 18px;
+}
+
